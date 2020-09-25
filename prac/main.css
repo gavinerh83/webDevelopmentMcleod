@@ -1,9 +1,13 @@
-p::first-letter {
-    font-family: cursive;
-    font-size: 30px;
-    line-height: .5;
+p {
+    font-family: sans-serif, serif;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    font-family: 'Courier Prime';
+    
 }
-p::first-line {
-    color: red;
-    font-weight: 900;
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
